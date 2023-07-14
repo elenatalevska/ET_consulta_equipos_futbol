@@ -1,0 +1,45 @@
+div.container {
+	text-align: justify; margin: auto; background-color: lightcyan; padding:20px; max-width: 1200px;
+}
+div#equipos {
+	background:cyan; width:300px; height:200px; float:left; border: 2px solid blue; 
+}
+div.calidades {
+	vertical-align: top; 
+}
+div.calidades table{
+	margin: auto; 
+}
+div#jugadores p {
+	border: 1px solid black; padding:5px;font-size:1.3em; margin:0px;
+}
+table.equipos {display: inline-block; vertical-align: top;}
+td {width: 280px;}
+td.escudo {width: 50px;text-align: center;background-color: white; }
+
+div#imagenes {
+	background:lightyellow; display: block;  text-align: center;
+}
+div#imagenes img {
+	margin: 20px 60px 20px 60px; 
+}
+
+div#jugadores {
+	text-align: justify;
+}
+div#jugadores:nth-child(even) {background-color: lightsalmon;}
+a {font-size: 1.3em;}
+iframe {margin: auto; display: block;}
+.calidades table {
+	border: 5px ridge blue;
+}
+.calidades th, .calidades td {
+	background:white; width:auto; border: 2px solid green; text-align: left; vertical-align: bottom;
+}
+
+form {
+	text-align: center;
+	padding: 40px;
+}
+
+select#demarcacion option {font-size: 1.2em;}
